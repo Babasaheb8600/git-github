@@ -1,0 +1,19 @@
+2 dir
+3 rm testing.py
+4 git status
+5 clear
+6 git add testing.py
+7 git status
+8 git rm --cached testing.py
+9 git status
+10 git add .
+11 git status
+12 clear
+13 git commit -m "added testing files"
+14 clear
+15 git status
+16 rm testing.py
+17 git status
+18 clear
+19 git restore testing.py
+20 git status
